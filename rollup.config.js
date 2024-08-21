@@ -1,25 +1,15 @@
 import nodeResolve from '@rollup/plugin-node-resolve';
-import terser from '@rollup/plugin-terser';
 
-export default [{
-	input: 'index.js',
-	plugins: [nodeResolve()],
-	output: [{
-		file: 'index.cjs',
-		format: 'cjs',
-	}, {
-		file: 'index.min.js',
-		format: 'iife',
-		plugins: [terser()],
-		sourcemap: true,
-	}, {
-		file: 'index.mjs',
-		format: 'module',
-	}],
-}, {
-	input: 'consts.js',
+const modules = ['browser', 'config', 'globals', 'languageOptions', 'node', 'rules'];
+const plugins = [nodeResolve()];
+const external = ['globals', '@eslint/compat', '@eslint/js'];
+
+export default modules.map(module => ({
+	input: `${module}.js`,
+	plugins,
+	external,
 	output: {
-		file: 'consts.cjs',
+		file: `${module}.cjs`,
 		format: 'cjs',
 	}
-}];
+}));
