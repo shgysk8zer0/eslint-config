@@ -1,8 +1,6 @@
 node_modules/
 .github/
 .editorconfig
-.eslintignore
-.eslintrc.json
 .htmlhintrc
 .gitattributes
 .gitignore
