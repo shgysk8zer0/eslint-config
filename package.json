@@ -1,8 +1,11 @@
 {
   "name": "@shgysk8zer0/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": " A shared ESLint config",
-  "keywords": ["eslint", "eslint-config"],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
   "type": "module",
   "main": "./config.cjs",
   "module": "./config.js",
