@@ -20,14 +20,14 @@ export const browser = {
 	showOpenFilePicker: false,
 	showSaveFilePicker: false,
 	trustedTypes: false,
+	CloseWatcher: false,
 	...globals.browser,
 };
 
 export const node = {
 	AggregateError: false,
 	Iterator: false,
-	Scheduler: false,
-	URLPattern: false,
 	scheduler: false,
+	URLPattern: false,
 	...globals.node,
 };
