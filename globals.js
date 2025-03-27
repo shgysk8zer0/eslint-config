@@ -21,6 +21,8 @@ export const browser = {
 	showSaveFilePicker: false,
 	trustedTypes: false,
 	CloseWatcher: false,
+	TaskController: false,
+	TaskSignal: false,
 	...globals.browser,
 };
 
@@ -29,5 +31,7 @@ export const node = {
 	Iterator: false,
 	scheduler: false,
 	URLPattern: false,
+	TaskController: false,
+	TaskSignal: false,
 	...globals.node,
 };
