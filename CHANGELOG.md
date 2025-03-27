@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.0.4] - 2025-03-27
+
+### Added
+- Add `TaskController` & `TaskSignal`
+
 ## [v1.0.2] - 2024-11-27
 
 ### Added
