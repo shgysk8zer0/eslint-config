@@ -2,7 +2,7 @@ import js from '@eslint/js';
 
 export const rules =  {
 	...js.configs.recommended.rules,
-	'indent': [2, 'tab', { 'SwitchCase': 1 }],
+	'indent': [2, 'tab', { 'SwitchCase': 1, 'ignoredNodes': ['TaggedTemplateExpression'] }],
 	'quotes': [2, 'single'],
 	'semi': [2, 'always'],
 	'no-console': 0,

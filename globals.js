@@ -23,6 +23,10 @@ export const browser = {
 	CloseWatcher: false,
 	TaskController: false,
 	TaskSignal: false,
+	navigation: false,
+	Signal: false,
+	DisposableStack: false,
+	AsyncDisposableStack: false,
 	...globals.browser,
 };
 
@@ -33,5 +37,8 @@ export const node = {
 	URLPattern: false,
 	TaskController: false,
 	TaskSignal: false,
+	Signal: false,
+	DisposableStack: false,
+	AsyncDisposableStack: false,
 	...globals.node,
 };
