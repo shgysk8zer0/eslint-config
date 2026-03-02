@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.0.6] - 2026-03-02
+
+### Fixed
+- Fix setting of `ignores` in config
+
 ## [v1.0.5] - 2026-02-18
 
 ### Changed
