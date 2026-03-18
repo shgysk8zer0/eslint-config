@@ -1,6 +1,6 @@
 {
   "name": "@shgysk8zer0/eslint-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": " A shared ESLint config",
   "keywords": [
     "eslint",
