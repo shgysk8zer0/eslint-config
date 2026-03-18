@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.0.8] - 2026-03-18
+
+### Added
+- Add rule to prevent invisible characters
+
 ## [v1.0.7] - 2026-03-02
 
 ### Fixed
