@@ -9,4 +9,10 @@ export const rules =  {
 	'no-async-promise-executor': 0,
 	'no-prototype-builtins': 0,
 	'no-unused-vars': 'error',
+	'no-irregular-whitespace': ['error', {
+		skipStrings: false,
+		skipComments: false,
+		skipRegExps: false,
+		skipTemplates: false
+	}],
 };
